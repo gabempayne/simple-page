@@ -1,0 +1,138 @@
+/** Universal Styles **/
+
+html{
+	width:100%;
+	height:100%;
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+
+}
+
+.line-break {
+	width: 400px;
+	padding-top:0;
+	border-top: 1px solid white;
+}
+
+a {
+	color: inherit;
+}
+.btn {
+	padding-top:17px;
+}
+.btn-text {
+	font-family: 'Helvetica Neue', sans-serif;	
+	background: rgba(0,0,0,0);
+	text-decoration: none;
+	font-weight: 200;
+	letter-spacing: 1;
+	text-transform: uppercase;
+	border: solid #fff 1px;
+	border-radius: 10px;
+	padding: 10px 20px;
+	color: #fff;
+}
+.btn-text:hover {
+	background: rgba(0,0,0,0.5);
+	border: solid #fff 1px;
+}
+
+/** Main Page Styles **/
+
+.main-container h1 {
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+.main-container p {
+	font-weight: 200;
+	letter-spacing: 1;
+}
+.main-container h3 {
+	font-weight: 200;
+	letter-spacing: 1;
+}
+
+.main-container {
+	border-radius: 5%;
+	color:#fff;
+	height: 400px;
+	width: 400px;
+	background: rgba(0,0,0,0.4);
+	padding: 60px;
+	margin: 0 auto;
+	margin-top: 80px;
+	text-align:center;
+}
+
+.profile-img {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+.social-icons{
+	font-size: 40px;
+	margin: 4 auto;
+	margin-top: 100px;
+	text-align:center;
+}
+
+/** About Page Styles *//
+
+.about-container h1 {
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+
+.about-container p {
+	padding: 0;
+	font-weight: 200;
+	text-align: justify;
+	letter-spacing: 1;
+}
+
+.about-container h1 {
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+
+.about-btn {
+	padding: 15 0 0 0;
+}
+
+.about-btn-text {
+	font-family: 'Helvetica Neue', sans-serif;	
+	background: rgba(0,0,0,0);
+	text-decoration: none;
+	font-weight: 200;
+	letter-spacing: 1;
+	text-transform: uppercase;
+	border: solid #fff 1px;
+	border-radius: 10px;
+	padding: 10px 20px;
+	color: #fff;
+}
+
+.about-btn-text:hover {
+	background: rgba(0,0,0,0.5);
+	border: solid #fff 1px;
+}
+
+.about-container {
+	border-radius: 5%;
+	color:#fff;
+	width: 400px;
+	background: rgba(0,0,0,0.4);
+	padding: 5px 60px 60px 60px;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align:center;
+}
+
